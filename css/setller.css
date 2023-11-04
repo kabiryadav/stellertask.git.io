@@ -1,0 +1,856 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* here is mobile nav responsive css */
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: #04aa6d; */
+  color: white;
+  margin-left: 50%;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav img {
+    margin-left: 0% !important;
+    padding: 15px;
+  }
+
+  .stars {
+    display: flex;
+    background-color: #26cdcd;
+    max-width: 150px;
+    padding: 5px 20px !important;
+    margin-top: -10px;
+  }
+
+  
+  .steller {
+    margin: 20px auto;
+    width: 100% !important;
+    text-align: unset !important;
+  }
+
+  .steller-save h3 {
+    text-transform: capitalize;
+    font-size: 29px !important;
+    line-height: 40px !important;
+    font-weight: 400;
+}
+
+.para {
+  margin: 20px auto;
+   width: 100% !important;
+  text-align: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: -10px;
+}
+
+.para p {
+  text-transform: capitalize;
+  line-height: 35px !important;
+  font-size: 22px !important;
+  color: #3c3b3b;
+  margin-right: 81px !important;
+}
+
+#tow{margin-left: 30px;}
+  .rating {
+     margin-top: -20px !important;
+}
+
+.new-stars .fa-star {
+  color: rgb(228, 214, 24);
+  margin: 0px 3px !important;
+}
+
+.dow-btn .fa-download {
+  margin: 20px 20px 20px 0px;
+  font-size: 15px !important;
+  color: #fff;
+}
+
+.dow-btn {
+  display: flex;
+  background-color: rgb(40, 202, 108);
+  padding: 0px 10px !important;
+  border-radius: 50px;
+  margin-right: 10px !important;
+}
+
+.dow-btn p {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
+  font-size: 10px !important;
+}
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px !important;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+.buy p {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #a61a1a;
+  font-size: 14px !important;
+}
+
+.apple {
+  width: 100px;
+  text-align: left;
+  margin-left: 0% !important; 
+  margin-top: 1% !important;
+  text-transform: capitalize;
+}
+
+.bb {
+  width: 100% !important;
+  height: auto;
+   
+   justify-content: unset !important; 
+  margin-top: 60px;
+}
+
+span.apple {
+  font-size: 12px !important;
+}
+
+.dow-btn span {
+  
+  font-size: 11px !important;
+}
+
+.camera {
+  width: 92% !important;
+  height: 180px;
+  background-color: #fff;
+  margin: 61px auto !important;
+  box-shadow: 5px 10px 8px 0px #e9eaf8 !important;
+  border: 1px solid grey;
+  border-radius: 50px;
+  display: flex;
+}
+
+.camera img {
+  margin: 11px 31px !important;
+}
+
+.camera h3 {
+  text-transform: capitalize;
+   margin-top: 10px !important;
+   font-size: 14px !important;
+}
+
+.camera p {
+  font-size: 13px !important;
+  color: #6d6d6d;
+  
+}
+
+#feature h1 {
+  text-transform: capitalize;
+  font-size: 26px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #322f2f;
+}
+
+#feature {
+  width: 100% !important;
+  margin: 70px auto;
+  text-align: center;
+}
+
+#feature .feature {
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  flex-direction: column !important;
+}
+
+#feature .feature .feature-box {
+   flex-direction: row !important;
+   width: 41% !important;
+}
+
+#feature .feature .feature-box .fa-solid {
+  font-size: 31px !important;
+  background-color: #fff;
+  margin: 30px 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  width: 50% !important;
+  height: 150px;
+  background-color: #fff;
+}
+
+.cont p {
+  text-transform: capitalize;
+  margin-top: 28px !important;
+  font-size: 12px !important;
+  font-family: "Times New Roman", Times, serif;
+  color: #3c1313;
+}
+
+.bb {
+  margin-left: 0px!important;
+}
+
+span.apple {
+  margin-right: 44% !important;
+}
+
+#one{margin-right: 44% !important;}
+
+.container {
+  position: relative;
+   left: -13px!important; 
+  /* margin-top: 115%; */
+   width: 100% !important; 
+  height: 450px;
+}
+
+.sd-card h1 {
+  text-transform: capitalize;
+  font-size: 20px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #322f2f;
+}
+
+.testi h2 {
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px 2px !important;
+  width: 40% !important;
+  height: 150px;
+  background-color: #fff;
+}
+
+.sd {
+  width: 100%;
+  height: 639px !important;
+  background-image: linear-gradient(to right, #f8eaef, #e9eaf8);
+  margin-top: 90px;
+}
+
+.rating-box {
+  width: 100% !important;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.star-icon .fa-star {
+  color: #e3f433;
+  margin: 4px 1px !important;
+  background-color: rgb(70, 202, 70);
+  color: #fff;
+  padding: 5px !important;
+}
+
+p.s-date {
+  margin-top: 8px !important;
+}
+
+.sd-card {
+  width: 80%;
+  height: 1271px !important;
+  margin: auto;
+  text-align: center;
+}
+
+.sd-cardd h1 {
+  text-transform: capitalize;
+  font-size: 23px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #322f2f;
+}
+
+.counte {
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+}
+
+.counter {
+  width: 36% !important;
+  height: 150px;
+  background-color: #fff;
+}
+
+.sd-cardd {
+  width: 80%;
+  height: 386px !important;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-box {
+  width: 100% !important;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+}
+
+.footer h2 {
+  text-transform: uppercase;
+  font-size: 8px !important;
+  color: #fff;
+  padding-right: 20px !important;
+}
+.footer p {
+  text-transform: capitalize;
+  font-size: 9px !important;
+  color: #fff;
+}
+/* 
+.buy p {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #a61a1a;
+  font-size: 9px !important;
+} */
+
+.footer-box img{padding: 20px !important;}
+}
+
+@media (max-width:480px) {
+  .steller-save {
+    width: 90% !important;
+}
+}
+
+@media (max-width: 600px) {
+   
+ 
+}
+
+.topnav img {
+  margin-left: 45%;
+  padding: 8px 4px;
+}
+
+.m-contant {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to right, #f8eaef, #e9eaf8);
+  padding: 40px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating h5 {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #171717;
+}
+
+.stars {
+  display: flex;
+  background-color: #1a1b1b;
+  max-width: 200px;
+  padding: 14px 20px;
+  margin-top: -10px;
+}
+
+.stars .fa-star {
+  color: rgb(235, 238, 58);
+  margin: 5px;
+}
+
+.steller {
+  margin: 20px auto;
+  width: 70%;
+  text-align: center;
+}
+
+.steller h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(240, 48, 48);
+}
+
+.steller-save h3 {
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.para {
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: -10px;
+}
+
+.para p {
+  text-transform: capitalize;
+  line-height: 32px;
+  font-size: 22px;
+  color: #3c3b3b;
+}
+
+.bb {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.dow-btn {
+  display: flex;
+  background-color: rgb(40, 202, 108);
+  padding: 0px 27px;
+  border-radius: 50px;
+}
+
+.dow-btn .fa-download {
+  margin: 20px 20px 20px 0px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dow-btn p {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
+}
+
+.dow-btn span {
+  position: relative;
+  top: -10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 27px;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+.buy p {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #a61a1a;
+  font-size: 20px;
+}
+
+.apple {
+  width: 100px;
+  text-align: left;
+  margin-left: -50%;
+  margin-top: 1% !important;
+  text-transform: capitalize;
+}
+
+.camera {
+  width: 80%;
+  height: 180px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 5px 10px 8px 10px #e9eaf8;
+  border: 1px solid grey;
+  border-radius: 50px;
+  display: flex;
+}
+
+.camera img {
+  margin: 20px 40px;
+}
+
+.camera h3 {
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.camera p {
+  font-size: 17px;
+  color: #6d6d6d;
+}
+
+.new-stars {
+  display: flex;
+}
+
+.new-stars .fa-star {
+  color: rgb(228, 214, 24);
+  margin: 2px 5px;
+}
+
+#feature {
+  width: 80%;
+  margin: 70px auto;
+  text-align: center;
+}
+
+#feature h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #322f2f;
+}
+
+#feature .feature {
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+#feature .feature .feature-box {
+  display: flex;
+}
+
+#feature .feature .feature-box .fa-solid {
+  font-size: 60px;
+  background-color: #fff;
+  margin: 30px 20px;
+}
+
+.cont p {
+  text-transform: capitalize;
+  margin-top: 45px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #3c1313;
+}
+
+.testi {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.testi h2 {
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + section {
+  display: block;
+}
+
+.container {
+  position: relative;
+  left: 30%;
+
+  /* margin-top: 115%; */
+  width: 600px;
+  height: 450px;
+}
+
+.container section {
+  display: none;
+  height: 100%;
+  padding: 15px;
+  background: #449df5;
+  color: #fff;
+  text-align: center;
+}
+
+.container section h1 {
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.container section p {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container section label {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5em;
+  bottom: 0;
+}
+
+.container section label:nth-child(odd) {
+  right: 120px;
+}
+
+.container section label:nth-child(even) {
+  left: 120px;
+}
+
+.container section > i {
+  font-size: 6em !important;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.testi h1 {
+}
+
+.sd {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(to right, #f8eaef, #e9eaf8);
+  margin-top: 90px;
+}
+
+.sd-card {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.sd-cardd{ width: 80%;
+  height: 200px;
+  margin: auto;
+  text-align: center;}
+
+  .sd-cardd h1{ 
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #322f2f;
+}
+
+
+.sd-card h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #322f2f;
+}
+
+.card-type {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  width: 25%;
+  height: 150px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card-cont .fa-sd-card {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.card-cont h3 {
+  font-weight: 600;
+  font-size: 15px;
+  color: #2c1c1c;
+}
+
+.very {
+  text-transform: capitalize;
+}
+.card-cont p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.rating-box {
+  width: 30%;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.star-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star-icon .fa-star {
+  color: #e3f433;
+  margin: 10px 1px;
+  background-color: rgb(70, 202, 70);
+  color: #fff;
+  padding: 10px;
+}
+
+.s-date {
+  font-weight: 600;
+  margin: 0 px 10px;
+  color: #7d7a7a;
+}
+
+.rating-box p {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(40, 25, 25);
+}
+
+.fa-check {
+  background-color: #171717;
+  padding: 5px;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0 10px 0px 0px;
+}
+
+.rating-box h6 {
+  text-align: left;
+}
+
+.counter {
+  width: 25%;
+  height: 150px;
+  background-color: #fff;
+}
+
+.color {
+  font-size: 30px;
+}
+
+.counter p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.counte {
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #af2c5a, #4049cb);
+  margin-top: 130px;
+  margin-left: 0px !important;
+}
+
+.footer-box {
+  width: 60%;
+  height: 100px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+}
+
+.footer h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer p {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #fff;
+}
